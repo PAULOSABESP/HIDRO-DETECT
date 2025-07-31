@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HIDRO DETECT</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f9ff; color: #333; }
+    header { background-color: #005c99; color: white; padding: 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2em; }
+    header p { font-size: 1em; margin-top: 8px; }
+    section { padding: 20px; }
+    .services img { width: 100px; height: 100px; margin: 10px; }
+    form { background: #eaf4ff; padding: 15px; border-radius: 5px; }
+    input, textarea { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 4px; }
+    button { background-color: #005c99; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background-color: #004a80; }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .gallery img { width: 100%; max-width: 300px; border-radius: 8px; margin: 10px auto; display: block; }
+    @media (min-width: 600px) {
+      .services img, .gallery img { display: inline-block; margin: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HIDRO DETECT</h1>
+    <p>Precisão contra vazamentos, confiança em cada reparo</p>
+  </header>  <section>
+    <h2>Serviços</h2>
+    <div class="services">
+      <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-water-leak-plumbing-flatart-icons-outline-flatarticons.png" alt="Caça Vazamento" />
+      <img src="https://img.icons8.com/ios-filled/100/000000/faucet.png" alt="Reparo de Torneiras" />
+      <img src="https://img.icons8.com/ios-filled/100/000000/water-tank.png" alt="Caixa d'água" />
+    </div>
+  </section>  <section>
+    <h2>Solicite um Orçamento</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required />
+      <input type="tel" placeholder="Telefone para contato" required />
+      <textarea rows="4" placeholder="Descreva o problema..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>  <section>
+    <h2>Galeria de Serviços</h2>
+    <div class="gallery">
+      <img src="https://img.icons8.com/color/480/plumber.png" alt="Serviço 1">
+      <img src="https://img.icons8.com/color/480/water.png" alt="Serviço 2">
+    </div>
+  </section><a href="https://wa.me/5511987804292" class="whatsapp-button" target="_blank" title="Fale conosco no WhatsApp">💬</a>
+
+</body>
+</html>
